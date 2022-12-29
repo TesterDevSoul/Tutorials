@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jackson" />
+        <module name="web" />
+        <module name="grid" />
+        <module name="junit5-basic" />
+        <module name="interface" />
+        <module name="basic" />
+        <module name="basic (1)" />
+        <module name="po" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="basic" target="1.5" />
+      <module name="basic (1)" target="1.5" />
+      <module name="grid" target="1.5" />
+      <module name="interface" target="1.5" />
+      <module name="jackson" target="1.5" />
+      <module name="junit5-basic" target="1.5" />
+      <module name="po" target="1.5" />
+      <module name="web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

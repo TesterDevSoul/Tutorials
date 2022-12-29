@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/junit5/junit5-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/wechat/web/pom.xml" />
+        <option value="$PROJECT_DIR$/wechat/interface/pom.xml" />
+        <option value="$PROJECT_DIR$/jackson/pom.xml" />
+        <option value="$PROJECT_DIR$/selenium/po/pom.xml" />
+        <option value="$PROJECT_DIR$/selenium/grid/pom.xml" />
+        <option value="$PROJECT_DIR$/selenium/basic/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
