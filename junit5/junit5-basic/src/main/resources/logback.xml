@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-
     <!-- 默认为 ch.qos.logback.classic.encoder.PatternLayoutEncoder -->
     <encoder>
         <pattern>%date %-5level %logger{36}.%M\(%line\) -- %msg%n</pattern>
