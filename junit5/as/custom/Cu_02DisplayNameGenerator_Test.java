@@ -62,7 +62,7 @@ public class Cu_02DisplayNameGenerator_Test extends An_Base {
         //5、打印结果日志 - Sum Result
         logger.info("Sum Result：{}",result);
         //6、测试用例结果验证
-        assertEquals(5,result);
+        Assertions.assertEquals(5,result);
 
     }
 
@@ -75,7 +75,7 @@ public class Cu_02DisplayNameGenerator_Test extends An_Base {
         //5、打印结果日志 - Sum Result
         logger.info("Sum Result：{}",result);
         //6、测试用例结果验证
-        assertEquals(1,result);
+        Assertions.assertEquals(1,result);
     }
 
     @Test
@@ -84,10 +84,10 @@ public class Cu_02DisplayNameGenerator_Test extends An_Base {
         logger.info("Begin Sum Test");
         // assertThrows 抛出异常或异常的父类
         // assertThrowsExactly  抛出当前异常类
-        Exception throwException = assertThrows(RuntimeException.class, () -> mySUT.sum(100, 1));
+        Exception throwException = Assertions.assertThrows(RuntimeException.class, () -> mySUT.sum(100, 1));
 //        Exception exception = assertThrowsExactly(RuntimeException.class, () -> mySUT.sum(100, 1));
-        Exception exception = assertThrowsExactly(IllegalArgumentException.class, () -> mySUT.sum(100, 1));
-        assertTrue(exception.getMessage().contains("enter an integer in the range"));
+        Exception exception = Assertions.assertThrowsExactly(IllegalArgumentException.class, () -> mySUT.sum(100, 1));
+        Assertions.assertTrue(exception.getMessage().contains("enter an integer in the range"));
     }
 
 
@@ -102,7 +102,7 @@ public class Cu_02DisplayNameGenerator_Test extends An_Base {
         //5、打印结果日志 - Operation Result
         logger.info("Operation result：{}",subtract);
         // expected:期望值,  actual:运算的实际值
-        assertEquals(-3,subtract);
+        Assertions.assertEquals(-3,subtract);
     }
 
     @Test
@@ -114,16 +114,16 @@ public class Cu_02DisplayNameGenerator_Test extends An_Base {
         logger.info("Operation result：{}",subtract);
 
         // expected:期望值,  actual:运算的实际值
-        assertEquals(1,subtract);
+        Assertions.assertEquals(1,subtract);
     }
 
     @Test
     public void subtracttestBoundaryError(){
         logger.info("Begin Subtract Test");
         //超过边界值的减法运算
-        Exception illegalArgumentException = assertThrows(IllegalArgumentException.class, () -> mySUT.subtract(100, -98));
+        Exception illegalArgumentException = Assertions.assertThrows(IllegalArgumentException.class, () -> mySUT.subtract(100, -98));
         // expected:期望值,  actual:运算的实际值
-        assertTrue(illegalArgumentException.getMessage().contains("enter an integer in the range"));
+        Assertions.assertTrue(illegalArgumentException.getMessage().contains("enter an integer in the range"));
     }
 
 }

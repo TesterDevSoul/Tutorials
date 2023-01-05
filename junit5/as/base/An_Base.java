@@ -18,7 +18,7 @@ import static org.slf4j.LoggerFactory.getLogger;
  * @createTime 2022年11月29日 20:24:00
  */
 public class An_Base {
-    public static final Logger logger = getLogger(lookup().lookupClass());
+    public static final Logger logger = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
     public static MySUT mySUT;
 
 

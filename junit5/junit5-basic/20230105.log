@@ -1,0 +1,163 @@
+2023-01-05 11:35:54 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:44) -- Open My Basic Test Project 
+2023-01-05 11:35:54 INFO  [main] top.testeru.basic.An_01Test_Test.sumFailWith(An_01Test_Test.java:73) -- Begin Sum Test
+2023-01-05 11:35:54 INFO  [main] top.testeru.basic.An_01Test_Test.sumFailWith(An_01Test_Test.java:77) -- Sum Result：5
+2023-01-05 12:00:53 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:44) -- Open My Basic Test Project 
+2023-01-05 12:00:53 INFO  [main] top.testeru.basic.An_01Test_Test.sumFailWith(An_01Test_Test.java:73) -- Begin Sum Test
+2023-01-05 12:00:53 INFO  [main] top.testeru.basic.An_01Test_Test.sumFailWith(An_01Test_Test.java:77) -- Sum Result：5
+2023-01-05 12:07:08 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:44) -- Open My Basic Test Project 
+2023-01-05 12:07:08 INFO  [main] top.testeru.basic.An_01Test_Test.sumFail(An_01Test_Test.java:57) -- Begin Sum Test
+2023-01-05 12:07:08 INFO  [main] top.testeru.basic.An_01Test_Test.sumFail(An_01Test_Test.java:61) -- Sum Result：5
+2023-01-05 12:08:09 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:44) -- Open My Basic Test Project 
+2023-01-05 12:08:09 INFO  [main] top.testeru.basic.An_01Test_Test.sumFailWithSupplier(An_01Test_Test.java:73) -- Begin Sum Test
+2023-01-05 12:08:09 INFO  [main] top.testeru.basic.An_01Test_Test.sumFailWithSupplier(An_01Test_Test.java:77) -- Sum Result：5
+2023-01-05 14:14:15 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:44) -- Open My Basic Test Project 
+2023-01-05 14:14:15 INFO  [main] top.testeru.basic.An_01Test_Test.sumFail(An_01Test_Test.java:57) -- Begin Sum Test
+2023-01-05 14:14:15 INFO  [main] top.testeru.basic.An_01Test_Test.sumFail(An_01Test_Test.java:61) -- Sum Result：5
+2023-01-05 14:14:15 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:44) -- Open My Basic Test Project 
+2023-01-05 14:14:15 INFO  [main] top.testeru.basic.An_01Test_Test.sumFailWithSupplier(An_01Test_Test.java:73) -- Begin Sum Test
+2023-01-05 14:14:15 INFO  [main] top.testeru.basic.An_01Test_Test.sumFailWithSupplier(An_01Test_Test.java:77) -- Sum Result：5
+2023-01-05 14:14:15 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:44) -- Open My Basic Test Project 
+2023-01-05 14:14:15 INFO  [main] top.testeru.basic.An_01Test_Test.sum(An_01Test_Test.java:43) -- Begin Sum Test
+2023-01-05 14:14:15 INFO  [main] top.testeru.basic.An_01Test_Test.sum(An_01Test_Test.java:47) -- Sum Result：5
+2023-01-05 14:14:37 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:44) -- Open My Basic Test Project 
+2023-01-05 14:14:37 INFO  [main] top.testeru.basic.An_01Test_Test.b(An_01Test_Test.java:43) -- Begin Sum Test
+2023-01-05 14:14:37 INFO  [main] top.testeru.basic.An_01Test_Test.b(An_01Test_Test.java:47) -- Sum Result：5
+2023-01-05 14:14:37 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:44) -- Open My Basic Test Project 
+2023-01-05 14:14:37 INFO  [main] top.testeru.basic.An_01Test_Test.c(An_01Test_Test.java:57) -- Begin Sum Test
+2023-01-05 14:14:37 INFO  [main] top.testeru.basic.An_01Test_Test.c(An_01Test_Test.java:61) -- Sum Result：5
+2023-01-05 14:14:37 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:44) -- Open My Basic Test Project 
+2023-01-05 14:14:37 INFO  [main] top.testeru.basic.An_01Test_Test.d(An_01Test_Test.java:73) -- Begin Sum Test
+2023-01-05 14:14:37 INFO  [main] top.testeru.basic.An_01Test_Test.d(An_01Test_Test.java:77) -- Sum Result：5
+2023-01-05 14:22:21 INFO  [main] top.testeru.basic.An_02Each_Test.beforeEach(An_02Each_Test.java:85) -- BeforeEach注解
+2023-01-05 14:22:21 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:44) -- Open My Basic Test Project 
+2023-01-05 14:22:21 INFO  [main] top.testeru.basic.An_02Each_Test.sumFail(An_02Each_Test.java:56) -- Begin Sum Test
+2023-01-05 14:22:21 INFO  [main] top.testeru.basic.An_02Each_Test.sumFail(An_02Each_Test.java:60) -- Sum Result：5
+2023-01-05 14:22:21 INFO  [main] top.testeru.basic.An_02Each_Test.beforeEach(An_02Each_Test.java:85) -- BeforeEach注解
+2023-01-05 14:22:21 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:44) -- Open My Basic Test Project 
+2023-01-05 14:22:21 INFO  [main] top.testeru.basic.An_02Each_Test.sumFailWithSupplier(An_02Each_Test.java:72) -- Begin Sum Test
+2023-01-05 14:22:21 INFO  [main] top.testeru.basic.An_02Each_Test.sumFailWithSupplier(An_02Each_Test.java:76) -- Sum Result：5
+2023-01-05 14:22:21 INFO  [main] top.testeru.basic.An_02Each_Test.beforeEach(An_02Each_Test.java:85) -- BeforeEach注解
+2023-01-05 14:22:21 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:44) -- Open My Basic Test Project 
+2023-01-05 14:22:21 INFO  [main] top.testeru.basic.An_02Each_Test.sum(An_02Each_Test.java:42) -- Begin Sum Test
+2023-01-05 14:22:21 INFO  [main] top.testeru.basic.An_02Each_Test.sum(An_02Each_Test.java:46) -- Sum Result：5
+2023-01-05 14:34:09 INFO  [main] top.testeru.basic.An_02Each_Test.beforeEach(An_02Each_Test.java:88) -- BeforeEach注解
+2023-01-05 14:34:09 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:44) -- Open My Basic Test Project 
+2023-01-05 14:34:09 INFO  [main] top.testeru.basic.An_02Each_Test.sumFail(An_02Each_Test.java:59) -- Begin Sum Test
+2023-01-05 14:34:09 INFO  [main] top.testeru.basic.An_02Each_Test.sumFail(An_02Each_Test.java:63) -- Sum Result：5
+2023-01-05 14:34:09 INFO  [main] top.testeru.basic.An_02Each_Test.afterEach(An_02Each_Test.java:38) -- AfterEach注解
+2023-01-05 14:34:09 INFO  [main] top.testeru.basic.An_02Each_Test.beforeEach(An_02Each_Test.java:88) -- BeforeEach注解
+2023-01-05 14:34:09 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:44) -- Open My Basic Test Project 
+2023-01-05 14:34:09 INFO  [main] top.testeru.basic.An_02Each_Test.sumFailWithSupplier(An_02Each_Test.java:75) -- Begin Sum Test
+2023-01-05 14:34:09 INFO  [main] top.testeru.basic.An_02Each_Test.sumFailWithSupplier(An_02Each_Test.java:79) -- Sum Result：5
+2023-01-05 14:34:09 INFO  [main] top.testeru.basic.An_02Each_Test.afterEach(An_02Each_Test.java:38) -- AfterEach注解
+2023-01-05 14:34:09 INFO  [main] top.testeru.basic.An_02Each_Test.beforeEach(An_02Each_Test.java:88) -- BeforeEach注解
+2023-01-05 14:34:09 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:44) -- Open My Basic Test Project 
+2023-01-05 14:34:09 INFO  [main] top.testeru.basic.An_02Each_Test.sum(An_02Each_Test.java:45) -- Begin Sum Test
+2023-01-05 14:34:09 INFO  [main] top.testeru.basic.An_02Each_Test.sum(An_02Each_Test.java:49) -- Sum Result：5
+2023-01-05 14:34:09 INFO  [main] top.testeru.basic.An_02Each_Test.afterEach(An_02Each_Test.java:38) -- AfterEach注解
+2023-01-05 15:00:27 INFO  [main] top.testeru.MySUTOne.<init>(MySUTOne.java:23) -- Open My Basic Test Project 
+2023-01-05 15:00:27 INFO  [main] top.testeru.basic.An_01Test_Test.sumFail(An_01Test_Test.java:58) -- Begin Sum Test
+2023-01-05 15:00:27 INFO  [main] top.testeru.basic.An_01Test_Test.sumFail(An_01Test_Test.java:62) -- Sum Result：5
+2023-01-05 15:00:27 INFO  [main] top.testeru.MySUTOne.<init>(MySUTOne.java:23) -- Open My Basic Test Project 
+2023-01-05 15:00:27 INFO  [main] top.testeru.basic.An_01Test_Test.sumFailWithSupplier(An_01Test_Test.java:75) -- Begin Sum Test
+2023-01-05 15:00:27 INFO  [main] top.testeru.basic.An_01Test_Test.sumFailWithSupplier(An_01Test_Test.java:79) -- Sum Result：5
+2023-01-05 15:00:27 INFO  [main] top.testeru.MySUTOne.<init>(MySUTOne.java:23) -- Open My Basic Test Project 
+2023-01-05 15:00:27 INFO  [main] top.testeru.basic.An_01Test_Test.sum(An_01Test_Test.java:44) -- Begin Sum Test
+2023-01-05 15:00:27 INFO  [main] top.testeru.basic.An_01Test_Test.sum(An_01Test_Test.java:48) -- Sum Result：5
+2023-01-05 15:05:39 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 15:05:39 INFO  [main] top.testeru.basic.An_01Test_Test.sumFail(An_01Test_Test.java:55) -- Begin Sum Test
+2023-01-05 15:05:39 INFO  [main] top.testeru.basic.An_01Test_Test.sumFail(An_01Test_Test.java:59) -- Sum Result：5
+2023-01-05 15:05:39 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 15:05:39 INFO  [main] top.testeru.basic.An_01Test_Test.sumFailWithSupplier(An_01Test_Test.java:72) -- Begin Sum Test
+2023-01-05 15:05:39 INFO  [main] top.testeru.basic.An_01Test_Test.sumFailWithSupplier(An_01Test_Test.java:76) -- Sum Result：5
+2023-01-05 15:05:39 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 15:05:39 INFO  [main] top.testeru.basic.An_01Test_Test.sum(An_01Test_Test.java:41) -- Begin Sum Test
+2023-01-05 15:05:39 INFO  [main] top.testeru.basic.An_01Test_Test.sum(An_01Test_Test.java:45) -- Sum Result：5
+2023-01-05 15:19:55 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 15:19:55 INFO  [main] top.testeru.MySUT.initId(MySUT.java:32) -- Generate ID：8b7cdb4b-c65e-48e8-b74f-2cd04a46624d 
+2023-01-05 15:19:55 INFO  [main] top.testeru.basic.An_02Each_Test.beforeEach(An_02Each_Test.java:86) -- Begin Sum Test
+2023-01-05 15:19:55 INFO  [main] top.testeru.basic.An_02Each_Test.sumFail(An_02Each_Test.java:59) -- Sum Result：5
+2023-01-05 15:19:55 INFO  [main] top.testeru.MySUT.destroyId(MySUT.java:39) -- Release ID: 8b7cdb4b-c65e-48e8-b74f-2cd04a46624d 
+2023-01-05 15:19:55 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 15:19:55 INFO  [main] top.testeru.MySUT.initId(MySUT.java:32) -- Generate ID：7c4eeea2-6dce-4228-8bcc-516127bbc94e 
+2023-01-05 15:19:55 INFO  [main] top.testeru.basic.An_02Each_Test.beforeEach(An_02Each_Test.java:86) -- Begin Sum Test
+2023-01-05 15:19:55 INFO  [main] top.testeru.basic.An_02Each_Test.sumFailWithSupplier(An_02Each_Test.java:72) -- Sum Result：5
+2023-01-05 15:19:55 INFO  [main] top.testeru.MySUT.destroyId(MySUT.java:39) -- Release ID: 7c4eeea2-6dce-4228-8bcc-516127bbc94e 
+2023-01-05 15:19:55 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 15:19:55 INFO  [main] top.testeru.MySUT.initId(MySUT.java:32) -- Generate ID：0c343eff-98e2-4646-918c-aa8002e30121 
+2023-01-05 15:19:55 INFO  [main] top.testeru.basic.An_02Each_Test.beforeEach(An_02Each_Test.java:86) -- Begin Sum Test
+2023-01-05 15:19:55 INFO  [main] top.testeru.basic.An_02Each_Test.sum(An_02Each_Test.java:49) -- Sum Result：5
+2023-01-05 15:19:55 INFO  [main] top.testeru.MySUT.destroyId(MySUT.java:39) -- Release ID: 0c343eff-98e2-4646-918c-aa8002e30121 
+2023-01-05 16:10:29 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 16:10:29 INFO  [main] top.testeru.MySUT.initId(MySUT.java:32) -- Generate ID：42390dd1-fb27-49e6-b98e-4a0e05f1038e 
+2023-01-05 16:10:29 INFO  [main] top.testeru.basic.An_03All_Test.beforeEach(An_03All_Test.java:95) -- Begin Sum Test
+2023-01-05 16:10:29 INFO  [main] top.testeru.basic.An_03All_Test.sumFail(An_03All_Test.java:68) -- Sum Result：5
+2023-01-05 16:10:29 INFO  [main] top.testeru.MySUT.destroyId(MySUT.java:39) -- Release ID: 42390dd1-fb27-49e6-b98e-4a0e05f1038e 
+2023-01-05 16:10:29 INFO  [main] top.testeru.MySUT.initId(MySUT.java:32) -- Generate ID：f0b5671c-47e6-41f2-8a36-d41a77bdd02a 
+2023-01-05 16:10:29 INFO  [main] top.testeru.basic.An_03All_Test.beforeEach(An_03All_Test.java:95) -- Begin Sum Test
+2023-01-05 16:10:29 INFO  [main] top.testeru.basic.An_03All_Test.sumFailWithSupplier(An_03All_Test.java:81) -- Sum Result：5
+2023-01-05 16:10:29 INFO  [main] top.testeru.MySUT.destroyId(MySUT.java:39) -- Release ID: f0b5671c-47e6-41f2-8a36-d41a77bdd02a 
+2023-01-05 16:10:29 INFO  [main] top.testeru.MySUT.initId(MySUT.java:32) -- Generate ID：9bda385a-fc6d-4107-bcb5-d7d84eedef0e 
+2023-01-05 16:10:29 INFO  [main] top.testeru.basic.An_03All_Test.beforeEach(An_03All_Test.java:95) -- Begin Sum Test
+2023-01-05 16:10:29 INFO  [main] top.testeru.basic.An_03All_Test.sum(An_03All_Test.java:58) -- Sum Result：5
+2023-01-05 16:10:29 INFO  [main] top.testeru.MySUT.destroyId(MySUT.java:39) -- Release ID: 9bda385a-fc6d-4107-bcb5-d7d84eedef0e 
+2023-01-05 16:21:48 INFO  [main] top.testeru.basic.An_03All_Test.beforeAll(An_03All_Test.java:34) -- BeforeAll注解
+2023-01-05 16:21:48 INFO  [main] top.testeru.basic.An_03All_Test.beforeEach(An_03All_Test.java:86) -- BeforeEach注解
+2023-01-05 16:21:48 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 16:21:48 INFO  [main] top.testeru.basic.An_03All_Test.sumFail(An_03All_Test.java:57) -- Begin Sum Test
+2023-01-05 16:21:48 INFO  [main] top.testeru.basic.An_03All_Test.sumFail(An_03All_Test.java:61) -- Sum Result：5
+2023-01-05 16:21:48 INFO  [main] top.testeru.basic.An_03All_Test.beforeEach(An_03All_Test.java:86) -- BeforeEach注解
+2023-01-05 16:21:48 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 16:21:48 INFO  [main] top.testeru.basic.An_03All_Test.sumFailWithSupplier(An_03All_Test.java:73) -- Begin Sum Test
+2023-01-05 16:21:48 INFO  [main] top.testeru.basic.An_03All_Test.sumFailWithSupplier(An_03All_Test.java:77) -- Sum Result：5
+2023-01-05 16:21:48 INFO  [main] top.testeru.basic.An_03All_Test.beforeEach(An_03All_Test.java:86) -- BeforeEach注解
+2023-01-05 16:21:48 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 16:21:48 INFO  [main] top.testeru.basic.An_03All_Test.sum(An_03All_Test.java:43) -- Begin Sum Test
+2023-01-05 16:21:48 INFO  [main] top.testeru.basic.An_03All_Test.sum(An_03All_Test.java:47) -- Sum Result：5
+2023-01-05 16:24:19 INFO  [main] top.testeru.basic.An_03All_Test.beforeAll(An_03All_Test.java:87) -- BeforeAll注解
+2023-01-05 16:24:19 INFO  [main] top.testeru.basic.An_03All_Test.beforeEach(An_03All_Test.java:83) -- BeforeEach注解
+2023-01-05 16:24:19 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 16:24:19 INFO  [main] top.testeru.basic.An_03All_Test.sumFail(An_03All_Test.java:54) -- Begin Sum Test
+2023-01-05 16:24:19 INFO  [main] top.testeru.basic.An_03All_Test.sumFail(An_03All_Test.java:58) -- Sum Result：5
+2023-01-05 16:24:19 INFO  [main] top.testeru.basic.An_03All_Test.beforeEach(An_03All_Test.java:83) -- BeforeEach注解
+2023-01-05 16:24:19 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 16:24:19 INFO  [main] top.testeru.basic.An_03All_Test.sumFailWithSupplier(An_03All_Test.java:70) -- Begin Sum Test
+2023-01-05 16:24:19 INFO  [main] top.testeru.basic.An_03All_Test.sumFailWithSupplier(An_03All_Test.java:74) -- Sum Result：5
+2023-01-05 16:24:19 INFO  [main] top.testeru.basic.An_03All_Test.beforeEach(An_03All_Test.java:83) -- BeforeEach注解
+2023-01-05 16:24:19 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 16:24:19 INFO  [main] top.testeru.basic.An_03All_Test.sum(An_03All_Test.java:40) -- Begin Sum Test
+2023-01-05 16:24:19 INFO  [main] top.testeru.basic.An_03All_Test.sum(An_03All_Test.java:44) -- Sum Result：5
+2023-01-05 16:24:19 INFO  [main] top.testeru.basic.An_03All_Test.afterAll(An_03All_Test.java:91) -- AfterAll注解
+2023-01-05 16:27:19 INFO  [main] top.testeru.basic.An_03All_Test.beforeAll(An_03All_Test.java:89) -- BeforeAll注解
+2023-01-05 16:27:19 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 16:27:19 INFO  [main] top.testeru.MySUT.initId(MySUT.java:32) -- Generate ID：2953a7bf-5d82-4f20-ad14-cc7aee0bcd26 
+2023-01-05 16:27:19 INFO  [main] top.testeru.basic.An_03All_Test.beforeEach(An_03All_Test.java:85) -- Begin Sum Test
+2023-01-05 16:27:19 INFO  [main] top.testeru.basic.An_03All_Test.sumFail(An_03All_Test.java:58) -- Sum Result：5
+2023-01-05 16:27:19 INFO  [main] top.testeru.MySUT.destroyId(MySUT.java:39) -- Release ID: 2953a7bf-5d82-4f20-ad14-cc7aee0bcd26 
+2023-01-05 16:27:19 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 16:27:19 INFO  [main] top.testeru.MySUT.initId(MySUT.java:32) -- Generate ID：003cedb1-f2b7-46b3-986a-824277e4d5ab 
+2023-01-05 16:27:19 INFO  [main] top.testeru.basic.An_03All_Test.beforeEach(An_03All_Test.java:85) -- Begin Sum Test
+2023-01-05 16:27:19 INFO  [main] top.testeru.basic.An_03All_Test.sumFailWithSupplier(An_03All_Test.java:71) -- Sum Result：5
+2023-01-05 16:27:19 INFO  [main] top.testeru.MySUT.destroyId(MySUT.java:39) -- Release ID: 003cedb1-f2b7-46b3-986a-824277e4d5ab 
+2023-01-05 16:27:19 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 16:27:19 INFO  [main] top.testeru.MySUT.initId(MySUT.java:32) -- Generate ID：41535f2b-4abf-4ac6-9daa-02c645d90cf4 
+2023-01-05 16:27:19 INFO  [main] top.testeru.basic.An_03All_Test.beforeEach(An_03All_Test.java:85) -- Begin Sum Test
+2023-01-05 16:27:19 INFO  [main] top.testeru.basic.An_03All_Test.sum(An_03All_Test.java:48) -- Sum Result：5
+2023-01-05 16:27:19 INFO  [main] top.testeru.MySUT.destroyId(MySUT.java:39) -- Release ID: 41535f2b-4abf-4ac6-9daa-02c645d90cf4 
+2023-01-05 16:27:19 INFO  [main] top.testeru.basic.An_03All_Test.afterAll(An_03All_Test.java:35) -- AfterAll注解
+2023-01-05 16:28:13 INFO  [main] top.testeru.basic.An_03All_Test.beforeAll(An_03All_Test.java:89) -- BeforeAll注解
+2023-01-05 16:28:13 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 16:28:13 INFO  [main] top.testeru.MySUT.initId(MySUT.java:32) -- Generate ID：c9139e0b-acb0-4b24-8018-fd1000f6d718 
+2023-01-05 16:28:13 INFO  [main] top.testeru.basic.An_03All_Test.beforeEach(An_03All_Test.java:85) -- Begin Sum Test
+2023-01-05 16:28:13 INFO  [main] top.testeru.basic.An_03All_Test.sumFail(An_03All_Test.java:58) -- Sum Result：5
+2023-01-05 16:28:14 INFO  [main] top.testeru.MySUT.destroyId(MySUT.java:39) -- Release ID: c9139e0b-acb0-4b24-8018-fd1000f6d718 
+2023-01-05 16:28:14 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 16:28:14 INFO  [main] top.testeru.MySUT.initId(MySUT.java:32) -- Generate ID：d88443d5-1cbb-437c-abfd-9561efe7af69 
+2023-01-05 16:28:14 INFO  [main] top.testeru.basic.An_03All_Test.beforeEach(An_03All_Test.java:85) -- Begin Sum Test
+2023-01-05 16:28:14 INFO  [main] top.testeru.basic.An_03All_Test.sumFailWithSupplier(An_03All_Test.java:71) -- Sum Result：5
+2023-01-05 16:28:14 INFO  [main] top.testeru.MySUT.destroyId(MySUT.java:39) -- Release ID: d88443d5-1cbb-437c-abfd-9561efe7af69 
+2023-01-05 16:28:14 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:28) -- Open My Basic Test Project 
+2023-01-05 16:28:14 INFO  [main] top.testeru.MySUT.initId(MySUT.java:32) -- Generate ID：1a0ec594-2719-4986-b4ad-c4e7c0ead3e8 
+2023-01-05 16:28:14 INFO  [main] top.testeru.basic.An_03All_Test.beforeEach(An_03All_Test.java:85) -- Begin Sum Test
+2023-01-05 16:28:14 INFO  [main] top.testeru.basic.An_03All_Test.sum(An_03All_Test.java:48) -- Sum Result：5
+2023-01-05 16:28:14 INFO  [main] top.testeru.MySUT.destroyId(MySUT.java:39) -- Release ID: 1a0ec594-2719-4986-b4ad-c4e7c0ead3e8 

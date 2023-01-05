@@ -35,7 +35,7 @@ public class An_01Test_Test {
 
     @Test
     public void sum() {
-        //1、被测系统命名为 - My Basic Test Project
+        //1、被测系统计算器创建并命名：My Basic Test Project
         MySUT mySUT = new MySUT("My Basic Test Project");
         //2、打印日志 - Begin Sum Test
         logger.info("Begin Sum Test");
@@ -49,7 +49,7 @@ public class An_01Test_Test {
     }
     @Test
     public void sumFail() {
-        //1、被测系统命名为 - My Basic Test Project
+        //1、被测系统计算器创建并命名：My Basic Test Project
         MySUT mySUT = new MySUT("My Basic Test Project");
         //2、打印日志 - Begin Sum Test
         logger.info("Begin Sum Test");
@@ -58,8 +58,27 @@ public class An_01Test_Test {
         //4、打印结果日志 - Sum Result
         logger.info("Sum Result：{}",result);
         //5、测试用例结果验证
-        //expected:期望值,  actual:运算的实际值
-        assertEquals(7,result,"4+1计算结果错误");
+        //expected:期望值,  actual:运算的实际值, message:断言失败时的解释说明
+        assertEquals(7,result,"4+1计算结果错误"+result);
+        logger.info("断言失败");
     }
 
+
+    @Test
+    public void sumFailWithSupplier() {
+        //1、被测系统计算器创建并命名：My Basic Test Project
+        MySUT mySUT = new MySUT("My Basic Test Project");
+        //2、打印日志 - Begin Sum Test
+        logger.info("Begin Sum Test");
+        //3、测试用例步骤调用 - sum()
+        int result = mySUT.sum(4, 1);
+        //4、打印结果日志 - Sum Result
+        logger.info("Sum Result：{}",result);
+        int expected = 7;
+        //5、测试用例结果验证
+        //expected:期望值,  actual:运算的实际值, messageSupplier:断言失败时解释说明，只有失败时才运行
+        assertEquals(expected,result, ()->"4+1计算结果为："+result+"，期望结果为："+expected);
+        logger.info("断言失败");
+
+    }
 }

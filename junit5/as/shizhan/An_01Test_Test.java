@@ -25,7 +25,7 @@ import static org.slf4j.LoggerFactory.getLogger;
  * @createTime 2022年11月29日 19:54:00
  */
 public class An_01Test_Test {
-    static final Logger logger = getLogger(lookup().lookupClass());
+    static final Logger logger = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
     /**
      * 正向，加法测试用例
@@ -42,7 +42,7 @@ public class An_01Test_Test {
         logger.info("Sum Result：{}",result);
         //5、测试用例结果验证
         //expected:期望值,  actual:运算的实际值
-        assertEquals(5,result);
+        Assertions.assertEquals(5,result);
     }
 
     /**
@@ -59,7 +59,7 @@ public class An_01Test_Test {
         //4、打印结果日志 - Sum Result
         logger.info("Sum Result：{}",result);
         //5、测试用例结果验证
-        assertEquals(1,result);
+        Assertions.assertEquals(1,result);
     }
 
     /**
@@ -78,11 +78,11 @@ public class An_01Test_Test {
          * assertThrows「抛出异常或异常的父类」：   expectedType  抛出的异常类型；   executable    异常业务
          * assertThrowsExactly「抛出当前异常类」
          */
-        Exception throwException = assertThrows(RuntimeException.class, () -> mySUT.sum(100, 1));
+        Exception throwException = Assertions.assertThrows(RuntimeException.class, () -> mySUT.sum(100, 1));
 //        Exception exception = assertThrowsExactly(RuntimeException.class, () -> mySUT.sum(100, 1));
-        Exception exception = assertThrowsExactly(IllegalArgumentException.class, () -> mySUT.sum(100, 1));
+        Exception exception = Assertions.assertThrowsExactly(IllegalArgumentException.class, () -> mySUT.sum(100, 1));
         //4、测试用例结果验证
-        assertTrue(exception.getMessage().contains("enter an integer in the range"));
+        Assertions.assertTrue(exception.getMessage().contains("enter an integer in the range"));
     }
 //    @Test
 //    public void sumBoundaryError() {
