@@ -1,80 +1,28 @@
-package top.testeru.basic;
+package top.testeru.shizhan;
 
-import org.junit.jupiter.api.*;
-import org.slf4j.Logger;
-import top.testeru.MySUT;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import top.testeru.base.An_Base;
 
-import static java.lang.invoke.MethodHandles.lookup;
 import static org.junit.jupiter.api.Assertions.*;
-import static org.slf4j.LoggerFactory.getLogger;
 
 /**
  * @author www.testeru.top
  * @version 1.0.0
  * @Project junit5-tutorial
- * @Description
+ * @Description Disabled
  *
- * BeforeAll
- *  * 方法上注解 static修饰 void返回值 与在代码中的前后顺序无关
- *  * 在测试类里面运行一次，并且是在所有的方法之前运行一次
- *  * 作用：对象的声明 测试数据准备，log日志删除，apk安装，启动的某些参数的配置 AppiumDriver webdriver ChromeDriver
- *
- *  AfterAll
- *  * 方法上注解 static修饰 void返回值 与在代码中的前后顺序无关
- *  * 在测试类里面运行一次，并且是在所有的方法之后运行一次
- *  * 作用：apk卸载 app退出，测试用例结束，web端关闭浏览器操作。。。
- *
- * 总结：
- * 1、@Test注解对应的方法断言是否成功，AfterEach里面的代码都是运行的
- * 2、@AfterEach有多少个Test注解就运行多少次
- * 3、@BeforeAll、@BeforeEach、@Test、@AfterEach、@AfterAll 都是方法注解 只能写在方法上
- * 4、运行顺序：
- * @BeforeAll
- *       @BeforeEach   @Test   @AfterEach
- *       @BeforeEach   @Test   @AfterEach
- *       @BeforeEach   @Test   @AfterEach
- * @AfterAll
- * 5、注解是否可修饰同一方法
- * * @BeforeEach + @AfterEach   可以同时修饰一个方法
- * * @BeforeAll + @AfterAll     可以同时修饰一个方法
- * * @BeforeAll + @AfterEach    不可以❌
- * * @BeforeEach + @AfterAll    不可以❌
- *
- * @createTime 2022年11月29日 19:54:00
+ * @createTime 2022年11月29日 20:29:00
  */
-public class An_03All_Test {
-    static final Logger logger = getLogger(lookup().lookupClass());
-    static MySUT mySUT;
-
-
-    @BeforeAll
-//    public void beforeAll(){//JUnitException
-    public static void beforeAll(){
-        //1、被测系统命名为 - My Basic Test Project
-        mySUT = new MySUT("My Basic Test Project");
-    }
-    @BeforeEach
-    public void beforeEach(){
-        //2、调用类对象的初始化ID方法 - initId()
-        mySUT.initId();
-
-    }
-    @AfterEach
-    public void afterEach(){
-        //6、调用类对象的销毁ID方法 - destroyId()
-        mySUT.destroyId();
-    }
-
-    @AfterAll
-//    public void afterAll(){//JUnitException
-    public static void afterAll(){
-        mySUT.close();
-    }
-
+@DisplayName("😊计算器测试用例 ╯°□°）╯")
+public class An_06Disable_Test extends An_Base {
 
 // --- sum ---
 
     @Test
+    @DisplayName("加法🐶")
+    @Disabled
     public void sum() {
         //3、打印日志 - Begin Sum Test
         logger.info("Begin Sum Test");
@@ -88,6 +36,7 @@ public class An_03All_Test {
     }
 
     @Test
+    @DisplayName("加法边界值😱")
     public void sumBoundary() {
         //3、打印日志 - Begin Sum Test
         logger.info("Begin Sum Test");
@@ -98,7 +47,9 @@ public class An_03All_Test {
         //6、测试用例结果验证
         assertEquals(1,result);
     }
+
     @Test
+    @DisplayName("加法异常😐")
     public void sumBoundaryError() {
         //3、打印日志 - Begin Sum Test
         logger.info("Begin Sum Test");
@@ -114,6 +65,7 @@ public class An_03All_Test {
 // --- subtract ---
 
     @Test
+    @DisplayName("减法🐶")
     public void subtract(){
         //3、打印日志 - Begin Subtract Test
         logger.info("Begin Subtract Test");
@@ -124,7 +76,9 @@ public class An_03All_Test {
         // expected:期望值,  actual:运算的实际值
         assertEquals(-3,subtract);
     }
+
     @Test
+    @DisplayName("减法边界值😱")
     public void subtractBoundary(){
         logger.info("Begin Subtract Test");
         //4、测试用例步骤调用 - subtract() 减法运算
@@ -135,7 +89,9 @@ public class An_03All_Test {
         // expected:期望值,  actual:运算的实际值
         assertEquals(1,subtract);
     }
+
     @Test
+    @DisplayName("减法异常😐")
     public void subtractBoundaryError(){
         logger.info("Begin Subtract Test");
         //超过边界值的减法运算
@@ -143,4 +99,5 @@ public class An_03All_Test {
         // expected:期望值,  actual:运算的实际值
         assertTrue(illegalArgumentException.getMessage().contains("enter an integer in the range"));
     }
+
 }

@@ -12,10 +12,10 @@ import static org.slf4j.LoggerFactory.getLogger;
 /**
  * @author www.testeru.top
  * @version 1.0.0
- * @Project ${PROJECT_NAME}
- * @Description ${desc}
- * @createTime ${YEAR}年${MONTH}月${DAY}日 ${HOUR}:${MINUTE}:00
- */
+ * @Project junit5
+ * @Description 被测系统
+ * @createTime 2023年01月04日 11:56:00
+*/
 public class MySUT {
 
     //获得具有所需名称的记录器
@@ -26,6 +26,7 @@ public class MySUT {
     String name;
     //唯一ID标识
     String id;
+
     public String getName() {
         return name;
     }
@@ -59,7 +60,12 @@ public class MySUT {
     }
     //连续添加
     public int sum(int... numbers) {
-        if(Arrays.stream(numbers).anyMatch(u -> u > 99) | Arrays.stream(numbers).anyMatch(u -> u < -99)){
+        if(Arrays.stream(numbers).anyMatch(u -> u == 100) | Arrays.stream(numbers).anyMatch(u -> u == -100)){
+            //
+            logger.warn("Enter an integer is 100！");
+            throw new NumberFormatException("Enter an integer is 100！");
+        }else if (Arrays.stream(numbers).anyMatch(u -> u > 99) |
+                  Arrays.stream(numbers).anyMatch(u -> u < -99)){
             // 请输入范围内的整数
             logger.warn("Please enter an integer in the range!");
             throw new IllegalArgumentException("Please enter an integer in the range!");
@@ -69,15 +75,16 @@ public class MySUT {
     }
     //从100进行减法
     public int subtract(int... numbers) {
-        if(Arrays.stream(numbers).anyMatch(u -> u > 99) | Arrays.stream(numbers).anyMatch(u -> u < -99)){
+        if(Arrays.stream(numbers).anyMatch(u -> u > 99) |
+                Arrays.stream(numbers).anyMatch(u -> u < -99)){
             logger.warn("Please enter an integer in the range!");
             throw new IllegalArgumentException("Please enter an integer in the range!");
         }else {
             return IntStream.of(numbers).reduce(100, (a, b) -> a-b);
         }
     }
-    public int subtract(int x,int y) {
-        if(x>99 | x<-99 | y>99 | y<-99){
+    public int subtract(int x, int y) {
+        if(x > 99 | x < -99 | y > 99 | y < -99){
             logger.warn("Please enter an integer in the range!");
             throw new IllegalArgumentException("Please enter an integer in the range!");
         }else {
@@ -86,7 +93,8 @@ public class MySUT {
     }
     //平均值 average
     public double average(int... numbers) {
-        if(Arrays.stream(numbers).anyMatch(u -> u > 99) | Arrays.stream(numbers).anyMatch(u -> u < -99)){
+        if(Arrays.stream(numbers).anyMatch(u -> u > 99) |
+                Arrays.stream(numbers).anyMatch(u -> u < -99)){
             logger.warn("Please enter an integer in the range!");
             throw new IllegalArgumentException("Please enter an integer in the range!");
         }else {
@@ -112,6 +120,7 @@ public class MySUT {
 
     public double div(double a, double b) {
         if (b == 0) {
+            logger.warn("Divide by zero");
             throw new ArithmeticException("Divide by zero");
         } else {
             return a / b;
@@ -119,6 +128,6 @@ public class MySUT {
     }
     public void clear(){
         result =0;
-        System.out.println("当前结果已清零！");
+        logger.info("当前结果已清零！");
     }
 }

@@ -1,7 +1,7 @@
-package top.testeru.basic;
+package top.testeru.shizhan;
 
-import org.junit.jupiter.api.Test;
-import top.testeru.base.An_TestInfoBase;
+import org.junit.jupiter.api.*;
+import top.testeru.base.An_Base;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -9,14 +9,21 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author www.testeru.top
  * @version 1.0.0
  * @Project junit5-tutorial
- * @Description
+ * @Description Order排序
+ *
+ * order+disable 则disable优先级高于order
  * @createTime 2022年11月29日 20:29:00
  */
-public class An_10TestInfo_Test extends An_TestInfoBase {
+@DisplayName("😊计算器测试用例 ╯°□°）╯")
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+public class An_07Order_Test extends An_Base {
 
 // --- sum ---
 
     @Test
+    @DisplayName("加法🐶")
+    @Disabled
+    @Order(1)
     public void sum() {
         //3、打印日志 - Begin Sum Test
         logger.info("Begin Sum Test");
@@ -30,6 +37,8 @@ public class An_10TestInfo_Test extends An_TestInfoBase {
     }
 
     @Test
+    @DisplayName("加法边界值😱")
+    @Order(2)
     public void sumBoundary() {
         //3、打印日志 - Begin Sum Test
         logger.info("Begin Sum Test");
@@ -40,7 +49,10 @@ public class An_10TestInfo_Test extends An_TestInfoBase {
         //6、测试用例结果验证
         assertEquals(1,result);
     }
+
     @Test
+    @DisplayName("加法异常😐")
+    @Order(3)
     public void sumBoundaryError() {
         //3、打印日志 - Begin Sum Test
         logger.info("Begin Sum Test");
@@ -56,6 +68,8 @@ public class An_10TestInfo_Test extends An_TestInfoBase {
 // --- subtract ---
 
     @Test
+    @DisplayName("减法🐶")
+    @Order(4)
     public void subtract(){
         //3、打印日志 - Begin Subtract Test
         logger.info("Begin Subtract Test");
@@ -66,7 +80,10 @@ public class An_10TestInfo_Test extends An_TestInfoBase {
         // expected:期望值,  actual:运算的实际值
         assertEquals(-3,subtract);
     }
+
     @Test
+    @DisplayName("减法边界值😱")
+    @Order(5)
     public void subtractBoundary(){
         logger.info("Begin Subtract Test");
         //4、测试用例步骤调用 - subtract() 减法运算
@@ -77,7 +94,10 @@ public class An_10TestInfo_Test extends An_TestInfoBase {
         // expected:期望值,  actual:运算的实际值
         assertEquals(1,subtract);
     }
+
     @Test
+    @DisplayName("减法异常😐")
+    @Order(6)
     public void subtractBoundaryError(){
         logger.info("Begin Subtract Test");
         //超过边界值的减法运算

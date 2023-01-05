@@ -1,28 +1,27 @@
-package top.testeru.basic;
+package top.testeru.shizhan;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import top.testeru.base.An_Base;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * @author www.testeru.top
  * @version 1.0.0
  * @Project junit5-tutorial
- * @Description Disabled
+ * @Description DisplayName
  *
  * @createTime 2022年11月29日 20:29:00
  */
 @DisplayName("😊计算器测试用例 ╯°□°）╯")
-public class An_06Disable_Test extends An_Base {
+public class An_05DisplayName_Test extends An_Base {
 
 // --- sum ---
 
     @Test
     @DisplayName("加法🐶")
-    @Disabled
     public void sum() {
         //3、打印日志 - Begin Sum Test
         logger.info("Begin Sum Test");

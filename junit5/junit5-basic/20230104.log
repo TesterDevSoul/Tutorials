@@ -1,0 +1,15 @@
+2023-01-04 14:54:37 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:43) -- Open My Basic Test Project 
+2023-01-04 14:54:37 INFO  [main] top.testeru.basic.An_01Test_Test.sum(An_01Test_Test.java:39) -- Begin Sum Test
+2023-01-04 14:54:37 INFO  [main] top.testeru.basic.An_01Test_Test.sum(An_01Test_Test.java:43) -- Sum Result：5
+2023-01-04 14:55:02 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:43) -- Open My Basic Test Project 
+2023-01-04 14:55:02 INFO  [main] top.testeru.basic.An_01Test_Test.sum(An_01Test_Test.java:39) -- Begin Sum Test
+2023-01-04 14:55:02 INFO  [main] top.testeru.basic.An_01Test_Test.sum(An_01Test_Test.java:43) -- Sum Result：5
+2023-01-04 14:55:23 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:43) -- Open My Basic Test Project 
+2023-01-04 14:55:23 INFO  [main] top.testeru.basic.An_01Test_Test.sum(An_01Test_Test.java:39) -- Begin Sum Test
+2023-01-04 14:55:23 INFO  [main] top.testeru.basic.An_01Test_Test.sum(An_01Test_Test.java:43) -- Sum Result：5
+2023-01-04 15:46:13 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:43) -- Open My Basic Test Project 
+2023-01-04 15:46:13 INFO  [main] top.testeru.basic.An_01Test_Test.sum(An_01Test_Test.java:39) -- Begin Sum Test
+2023-01-04 15:46:13 INFO  [main] top.testeru.basic.An_01Test_Test.sum(An_01Test_Test.java:43) -- Sum Result：5
+2023-01-04 15:49:00 INFO  [main] top.testeru.MySUT.<init>(MySUT.java:43) -- Open My Basic Test Project 
+2023-01-04 15:49:00 INFO  [main] top.testeru.basic.An_01Test_Test.sumFail(An_01Test_Test.java:53) -- Begin Sum Test
+2023-01-04 15:49:00 INFO  [main] top.testeru.basic.An_01Test_Test.sumFail(An_01Test_Test.java:57) -- Sum Result：5

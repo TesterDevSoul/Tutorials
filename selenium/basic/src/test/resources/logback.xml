@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
+
     <!-- 默认为 ch.qos.logback.classic.encoder.PatternLayoutEncoder -->
     <encoder>
         <pattern>%date %-5level %logger{36}.%M\(%line\) -- %msg%n</pattern>
@@ -42,7 +43,7 @@
     </appender>
 
     <logger name="top.testeru" level="DEBUG" />
-    <logger name="ch.qos.logback" level="ERROR" />
+    <logger name="ch.qos.logback" level="INFO" />
     <logger name="org" level="WARN" />
 
     <root level="INFO">
