@@ -24,7 +24,7 @@ import static org.slf4j.LoggerFactory.getLogger;
  *  * 在测试类里面运行一次，并且是在所有的方法之后运行一次
  *  * 作用：apk卸载 app退出，测试用例结束，web端关闭浏览器操作。。。
  *
- * @createTime 2022年11月29日 19:54:00
+ * @createTime 2023年01月04日 12:56:00
  */
 public class An_03All_Test {
     static final Logger logger = getLogger(lookup().lookupClass());

@@ -29,7 +29,7 @@ import static org.slf4j.LoggerFactory.getLogger;
  *  * 作用：测试用例中，测试方法需要销毁的内容及属性「app/web端回退到固定页面，首页；退出app；删除某些产生的测试数据；删除log日志」
  *
  *
- * @createTime 2022年11月29日 19:54:00
+ * @createTime 2023年01月04日 12:26:00
  */
 public class An_02Each_Test {
     static final Logger logger = getLogger(lookup().lookupClass());
