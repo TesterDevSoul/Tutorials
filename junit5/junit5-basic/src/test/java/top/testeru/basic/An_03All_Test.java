@@ -33,7 +33,7 @@ public class An_03All_Test {
     @AfterAll
     //public void afterAll(){//JUnitException
     public static void afterAll(){
-        logger.info("BeforeAll注解");
+        logger.info("AfterAll注解");
         //8、被测系统计算器 对象close关闭
         mySUT.close();
     }
