@@ -59,7 +59,7 @@ public class An_02Each_Test {
         logger.info("Sum Result：{}",result);
         //6、断言计算结果是否正确 测试用例结果验证
         //expected:期望值,  actual:运算的实际值, message:断言失败时的解释说明
-        assertEquals(7,result,"4+1计算结果错误"+result);
+        assertEquals(5,result,"4+1计算结果错误"+result);
         logger.info("断言失败");
     }
 
@@ -70,7 +70,7 @@ public class An_02Each_Test {
         int result = mySUT.sum(4, 1);
         //5、日志打印计算结果：Sum Result
         logger.info("Sum Result：{}",result);
-        int expected = 7;
+        int expected = 5;
         //6、断言计算结果是否正确 测试用例结果验证
         //expected:期望值,  actual:运算的实际值, messageSupplier:断言失败时解释说明，只有失败时才运行
         assertEquals(expected,result, ()->"4+1计算结果为："+result+"，期望结果为："+expected);

@@ -1,4 +1,4 @@
-package top.testeru.basic;
+package top.testeru.mvn;
 
 
 import org.junit.jupiter.api.Test;
